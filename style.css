@@ -185,6 +185,57 @@ footer h3 a{
     margin: 0 20px;
 }
 
+/* Bonus */
+.bonus{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f6f6f6;
+    padding: 150px 0;
+    
+}
+
+.bonus-left{
+    text-align: center;
+}
+
+
+
+
+.bonus-left img{
+    width: 70%;
+    
+}
+
+.form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-right: 0 5% 0 0;
+    
+}
+
+input[type=submit] {
+    background-color: #b81e26;
+    font-size: 25px;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+  }
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+  }
+
 
 /* Responsive CSS */
 
@@ -194,6 +245,15 @@ footer h3 a{
 @media (max-width:950px){
 .banner{
     grid-template-columns: 1fr;
+}
+
+.bonus{
+    grid-template-columns: 1fr;
+    padding: 50px 0;
+}
+.form{
+    padding-left:5%;
+    padding-right: 5%;
 }
 .items {
     grid-template-columns: 1fr 1fr;
