@@ -108,6 +108,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 80px;
+    margin-bottom: 150px;
     
 }
 .card{
@@ -147,4 +148,42 @@ a{
 .checked {
     color: #b81e26;
   }
+
+/* last-section */
+
+footer{
+    background-color:#303030;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer h3, footer h4{
+    color: rgb(206, 206, 206);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+footer h3 a{
+    font-size: 30px;
+    color: rgb(206, 206, 206);
+}
+
+
+.social-media {
+    padding-top:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.social-media a{
+    font-size: 20px;
+    color: rgb(206, 206, 206);
+    
+}
+.facebook, .linkedin, .instagram{
+    margin: 0 20px;
+}
 
