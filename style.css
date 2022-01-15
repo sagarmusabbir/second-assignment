@@ -33,10 +33,6 @@ a{
     color: #303030  
 }
 
-.banner{
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-}
 
 .menu{
     display: flex;
@@ -62,10 +58,12 @@ a{
 
 
 /* Section 1 */
+
 .banner{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
     margin: 10% 0;
 }
-
 
 .banner-left{
     display: flex;
@@ -187,3 +185,48 @@ footer h3 a{
     margin: 0 20px;
 }
 
+
+/* Responsive CSS */
+
+
+/* Tablet */
+
+@media (max-width:950px){
+.banner{
+    grid-template-columns: 1fr;
+}
+.items {
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner img{
+    width: 100%;
+    padding: 10%;
+
+}
+}
+
+
+/* Mobile */
+
+@media (max-width:800px){
+   
+    .items {
+        grid-template-columns: 1fr;
+    }
+    
+    .banner img{
+        width: 100%;
+        padding: 10%;
+    
+    }
+    .menu{
+        display: none;
+    }
+    .banner-left h1{
+        font-size: 40px;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    }
